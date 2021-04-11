@@ -1,0 +1,51 @@
+/*-----------------------------------------------------------
+						Page Layout
+-----------------------------------------------------------*/
+Header {
+	height: 160px;
+	background-Color: #05418b;
+	background-Image: none;
+}
+Header::before{
+	content: none;
+}
+#Page_Info {
+	height: calc(100% - 60px);
+	padding: 0px;
+	justify-content: Center;
+	align-items: Center;
+}
+section {
+	Margin-Top: 0px;
+}
+#info{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0px 20px;
+}
+input {
+	font-size: 1.5em;
+}
+/*-----------------------------------------------------------
+						Courses
+-----------------------------------------------------------*/
+.courses {
+	padding-bottom: 30px;
+	border-top: 1px solid lightgrey;
+}
+.courses_element{
+	width: calc(33.33% - 10px);
+}
+.courses_element div img{
+	height: 20%;
+	width: auto;
+	margin: 10px;
+}
+.details{
+	padding: 0px 10px;
+	height: 100%;
+}
+.note{
+	font-size: .9em;
+	margin: 0px;
+}
